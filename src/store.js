@@ -8,4 +8,4 @@ export const store = configureStore({
     }
 })
 
-console.log(store);
+// console.log(store);
