@@ -16,7 +16,7 @@ function App() {
   }, [cartItems, dispatch])
 
   useEffect(() =>{
-    dispatch(getCartItems())
+    dispatch(getCartItems('roolmap'))
   },[])
 
   if (isLoading) {
